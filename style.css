@@ -1,1 +1,31 @@
 /* Write your CSS Here. */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+#gameBox {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#resultsTextBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+span {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#imagesBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
