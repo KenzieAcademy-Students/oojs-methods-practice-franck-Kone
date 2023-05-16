@@ -67,17 +67,17 @@ function display20Images() {
   const results = [];
 
   // to match the result of display20Flips function
-  let flipsResult = coin.result
+  let result20Flips = coin.result
 
   // 5. Use a loop to flip the coin 20 times, and display the results of each flip as an image on the page.  After your loop completes, return an array with result of each flip.
-  for (let flipTimes = 0; flipTimes < flipsResult.length; flipTimes++) {
+  for (let flipTimes = 0; flipTimes < result20Flips.length; flipTimes++) {
 
-    if(flipsResult[flipTimes] === 'Heads'){
+    if(result20Flips[flipTimes] === 'Heads'){
       coin.state = 1;
       coin.toString()
       results.push(coin.toHTML())
     
-    } else if (flipsResult[flipTimes] === 'Tails'){
+    } else if (result20Flips[flipTimes] === 'Tails'){
       coin.state = 0;
       coin.toString()
       results.push(coin.toHTML())
