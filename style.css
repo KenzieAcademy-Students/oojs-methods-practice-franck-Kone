@@ -1,1 +1,32 @@
 /* Write your CSS Here. */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown ;
+}
+
+
+#gameBox {
+    display: flex;
+    flex-direction: column;
+}
+
+#resultsTextBox {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: bold;
+    background-color:lightsalmon;
+    color: black;
+    text-shadow: 4px 4px 4px rgb(68, 0, 255);
+    margin-bottom: 40px;
+}
+
+#imagesBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
